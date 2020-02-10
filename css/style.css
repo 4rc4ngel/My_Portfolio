@@ -59,11 +59,11 @@ strong {
 }
 
 .card {
-  min-height: 550px;
+  min-height: 500px;
 }
 
 .card-img {
-  min-height: 250px;
+  min-height: 200px;
   object-fit: cover;
 }
 
