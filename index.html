@@ -29,16 +29,20 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
+              <a href="#home-section" class="nav-link text-uppercase">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
+              <a href="#about-me-section" class="nav-link text-uppercase"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#projects" class="nav-link">Projects</a>
+              <a href="#project-section" class="nav-link text-uppercase"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link text-uppercase">Contact</a>
             </li>
           </ul>
         </div>
@@ -65,13 +69,13 @@
       <div class="about-inner container">
         <div class="row text-center">
           <div class="col mb-5">
-            <h1 class="display-3">About <strong>Me</strong></h1>
+            <h1 class="display-3 mb-5">About <strong>Me</strong></h1>
             <h3 class="display-5">
-              Full Stack Web Developer, passionate about code.
+              Full Stack <strong>Web Developer</strong>, passionate about code.
             </h3>
           </div>
         </div>
-        <div class="row pt-5">
+        <div class="row py-5">
           <div class="col-md-4">
             <div class="d-flex pb-3">
               <i class="fas fa-edit fa-2x"></i>
@@ -109,6 +113,144 @@
         </div>
       </div>
     </section>
+
+    <!-- PROJECTS -->
+
+    <section id="project-section">
+      <div id="overlay"></div>
+      <div class="project-inner container text-light pt-5">
+        <div class="row text-center">
+          <div class="col mb-5">
+            <h1 class="display-3 mb-5"><strong>Projects</strong></h1>
+            <h3 class="display-5">
+              I've built projects using:- HTML5, CSS3, Javascript and Python.
+            </h3>
+            <h5>
+              And used framworks/libraries such as :- Bootstrap, Materialize,
+              JQuery and Django.
+            </h5>
+          </div>
+        </div>
+        <div class="row text-dark">
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-5">
+              <img class="card-img" src="img/golf_project_img.jpg" alt="" />
+              <div class="card-header">HTML & CSS</div>
+              <div class="card-body">
+                <h6 class="card-title">Golf Society</h6>
+                <p class="card-text">
+                  A simple website that was created with pure HTML and CSS for a
+                  local golf society
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-5 ">
+              <img class="card-img" src="img/airpilot_project_img.jpg" alt="" />
+              <div class="card-header">Materialize</div>
+              <div class="card-body">
+                <h6 class="card-title">Aitpilot</h6>
+                <p class="card-text">
+                  A website created for a drone pilot to showcase his work,
+                  using Materliaze for paralax scrolling effect.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-5">
+              <img class="card-img" src="img/drumkit_project_img.jpg" alt="" />
+              <div class="card-header">JavaScript</div>
+              <div class="card-body">
+                <h6 class="card-title">Drumkit</h6>
+                <p class="card-text">
+                  A virtual drumkit, produced in vanilla JS, button or mouse
+                  clicks trigger and event handler which makes drum sounds.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-5">
+              <img class="card-img" src="img/realtor_project_img.jpg" alt="" />
+              <div class="card-header">Django & Python</div>
+              <div class="card-body">
+                <h6 class="card-title">Realtor</h6>
+                <p class="card-text">
+                  I realtor website, created using django and python. With
+                  boostrap styling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col mb-5">
+            <h1 class="display-3 mb-3"><strong>Skills</strong></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress">
+              <div id="html5-color" class="progress-bar" style="width: 80%">
+                HTML
+              </div>
+            </div>
+
+            <div class="progress">
+              <div id="css3-logo" class="progress-bar" style="width: 70%">
+                CSS
+              </div>
+            </div>
+
+            <div class="progress">
+              <div id="bootstrap-logo" class="progress-bar" style="width: 60%">
+                Bootstrap
+              </div>
+            </div>
+
+            <div class="progress">
+              <div id="javascript-logo" class="progress-bar" style="width: 80%">
+                JavaScript
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <div id="python-logo" class="progress-bar" style="width: 60%">
+                Python
+              </div>
+            </div>
+
+            <div class="progress">
+              <div id="django-logo" class="progress-bar" style="width: 40%">
+                Django
+              </div>
+            </div>
+
+            <div class="progress">
+              <div id="mysql-logo" class="progress-bar" style="width: 50%">
+                MySQL
+              </div>
+            </div>
+
+            <div class="progress">
+              <div id="postgresql-logo" class="progress-bar" style="width: 50%">
+                PostgreSQL
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS -->
+
+    <section id="progress-skills" class="bg-dark text-light">
+      <div class="container"></div>
+    </section>
+
     <script src="/jquery/jquery-3.4.1.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
   </body>

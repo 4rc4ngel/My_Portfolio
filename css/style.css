@@ -1,3 +1,15 @@
+/* UTILITIES */
+
+strong {
+  color: #a2f1a1;
+}
+
+.fas {
+  color: #a2f1a1;
+}
+
+/* HOME */
+
 #home-section {
   height: 800px;
   background: url(../img/coffee-2737047_1920.jpg);
@@ -19,4 +31,84 @@
 #home-section .home-inner {
   padding-top: 350px;
   color: #fff;
+}
+
+/* PROJECTS */
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+#project-section {
+  position: relative;
+  height: 100%;
+  background: url("../img/idea-1876659_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.card {
+  min-height: 550px;
+}
+
+.card-img {
+  min-height: 250px;
+  object-fit: cover;
+}
+
+/* SKILLS */
+
+.progress {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#html5-color {
+  background-color: #e44d26;
+}
+
+#css3-logo {
+  background-color: #264de4;
+}
+
+#bootstrap-logo {
+  background-color: #563d7e;
+}
+
+#javascript-logo {
+  background-color: #f6de1c;
+}
+
+#python-logo {
+  background-color: #3778ad;
+}
+
+#django-logo {
+  background-color: #022a1a;
+}
+
+#mysql-logo {
+  background-color: #e58f00;
+}
+
+#postgresql-logo {
+  background-color: #31648f;
 }
