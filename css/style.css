@@ -1,1 +1,22 @@
+#home-section {
+  height: 800px;
+  background: url(../img/coffee-2737047_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+#home-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 350px;
+  color: #fff;
+}
