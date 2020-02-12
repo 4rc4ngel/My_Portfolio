@@ -195,7 +195,7 @@
       </div>
     </section>
     <!-- SKILLS -->
-    <section id="skills-section" class="bg-dark text-light pt-5">
+    <section id="skills-section" class="bg-dark text-light py-5">
       <div class="container">
         <div class="row text-center">
           <div class="col mb-5">
@@ -262,49 +262,38 @@
 
     <!-- CONTACT -->
 
-    <section id="contact-section">
+    <section id="contact-section" class="py-5">
       <div id="contact-overlay"></div>
-      <div class="contact-section-inner">
-        <div class="row text-center">
-          <div class="col text-dark">
-            <h1 class="display-3">Contact Me</h1>
-            <h3 class="display-5">Have a project you'd like me to work on?</h3>
+        <div class="container">
+          <div class="row text-center text-light pb-5">
+            <div class="col">
+              <h1 class="display-3 mb-3">Contact <strong>Me</strong></h1>
+              <h3 class="display-5">
+               Have a project you'd like me to work on?
+              </h3>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <form>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your Name"
-                  required
-                />
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Your Email Address"
-                  required
-                />
-                <label for="message">Message</label>
-                <textarea
-                  class="form-control"
-                  name="message"
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="Brief outline of your project"
-                  required
-                ></textarea>
-
-                <input type="button" class="btn btn-success" value="Submit" />
-                <label class="ml-5" for="check">Collaboration?</label>
-                <input class="mt-3" type="checkbox" />
-              </div>
-            </form>
+          <div class="row">
+            <div id="contact-details" class="col-md-4 text-light">
+              <h2>Contact <strong>Details</strong></h2>
+              <p><strong>Name:</strong> Martyn Stanley</p>
+              <p><strong>Address:</strong> 4 Judith Ann Court, Upminster, Essex</p>
+              <p><strong>Email:</strong> martynstanley@me.com</p>
+              <p><strong>Tel:</strong> 07702 482 416</p>
+            </div>
+            <div id="contact-form" class="col-md-8">
+              <form>
+                <div class="form-group">
+                  
+                  <input class="form-control" type="text" placeholder="Your name">
+                  <input class="form-control" type="email" placeholder="Your email">
+                  <textarea  class="form-control" name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                  <div class="text-right">
+                    <input class="btn btn-success " type="button" value="Submit">
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

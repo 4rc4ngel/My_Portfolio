@@ -140,21 +140,27 @@ strong {
   padding: 50px;
 }
 
-.contact-section-inner {
-  max-width: 500px;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #a2f1a1;
+#contact-details {
+  background-color: #333;
   opacity: 0.8;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
   box-shadow: 8px 9px 8px 1px black;
+}
+
+#contact-form {
+  max-height: 250px;
 }
 
 .contact-section-inner {
   color: #000;
   opacity: none;
+}
+
+.form-control {
+  margin-bottom: 5px;
 }
 
 /* FOOTER */
