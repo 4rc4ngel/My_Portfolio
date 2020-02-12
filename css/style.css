@@ -12,7 +12,7 @@ strong {
 
 #home-section {
   height: 800px;
-  background: url(../img/coffee-2737047_1920.jpg);
+  background: url(../img/main_background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,6 +35,11 @@ strong {
 
 /* PROJECTS */
 
+.card-img:hover {
+  outline-offset: 5px;
+  outline: 3px solid #a2f1a1;
+}
+
 #project-overlay {
   position: absolute;
   width: 100%;
@@ -50,7 +55,7 @@ strong {
 #project-section {
   position: relative;
   height: 100%;
-  background: url("../img/idea-1876659_1920.jpg");
+  background: url("../img/project_background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -131,7 +136,7 @@ strong {
 #contact-section {
   position: relative;
   height: 100%;
-  background: url("../img/writing-pad-3202747_1920.jpg");
+  background: url("../img/contact_background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

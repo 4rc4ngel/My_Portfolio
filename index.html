@@ -140,8 +140,9 @@
         </div>
         <div class="row text-dark">
           <div class="col-md-6 col-lg-3">
+           
             <div class="card mb-5">
-              <img class="card-img" src="img/golf_project_img.jpg" alt="" />
+              <img class="card-img" data-toggle="modal" data-target="#modal1" src="img/golf_project_img.jpg" alt="" />
               <div class="card-header">HTML & CSS</div>
               <div class="card-body">
                 <h6 class="card-title">Golf Society</h6>
@@ -151,10 +152,11 @@
                 </p>
               </div>
             </div>
+          
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="card mb-5 ">
-              <img class="card-img" src="img/airpilot_project_img.jpg" alt="" />
+              <img class="card-img" data-toggle="modal" data-target="#modal2" src="img/airpilot_project_img.jpg" alt="" />
               <div class="card-header">Materialize</div>
               <div class="card-body">
                 <h6 class="card-title">Airpilot</h6>
@@ -167,7 +169,7 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="card mb-5">
-              <img class="card-img" src="img/drumkit_project_img.jpg" alt="" />
+              <img class="card-img" data-toggle="modal" data-target="#modal3" src="img/drumkit_project_img.jpg" alt="" />
               <div class="card-header">JavaScript</div>
               <div class="card-body">
                 <h6 class="card-title">Drumkit</h6>
@@ -180,7 +182,7 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="card mb-5">
-              <img class="card-img" src="img/realtor_project_img.jpg" alt="" />
+              <img class="card-img" data-toggle="modal" data-target="#modal4" src="img/realtor_project_img.jpg" alt="" />
               <div class="card-header">Django & Python</div>
               <div class="card-body">
                 <h6 class="card-title">Realtor</h6>
@@ -194,6 +196,91 @@
         </div>
       </div>
     </section>
+
+    <!-- MODALS -->
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Golf Society</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="modal-image" src="/img/golf_project_modal.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Air Pilot</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="modal-image" src="/img/airpilot_modal.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Virtual Drum Kit</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="modal-image" src="/img/drumkit_modal.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Realtor Site</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="modal-image" src="/img/realtor_project_modal.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+
     <!-- SKILLS -->
     <section id="skills-section" class="bg-dark text-light py-5">
       <div class="container">
@@ -207,52 +294,55 @@
         </div>
         <div class="row">
           <div class="col-md-6">
+            <h5>HTML5</h5>
             <div class="progress">
+              
               <div id="html5-color" class="progress-bar" style="width: 90%">
-                HTML
+                90%
               </div>
             </div>
-
+            <h5>CSS3</h5>
             <div class="progress">
               <div id="css3-logo" class="progress-bar" style="width: 80%">
-                CSS
+                80%
               </div>
             </div>
-
+            <h5> Bootstrap</h5>
             <div class="progress">
               <div id="bootstrap-logo" class="progress-bar" style="width: 70%">
-                Bootstrap
+               70%
               </div>
             </div>
-
+            <h5>JavaScript</h5>
             <div class="progress">
               <div id="javascript-logo" class="progress-bar" style="width: 60%">
-                JavaScript
+                60%
               </div>
             </div>
           </div>
           <div class="col-md-6">
+            <h5>Python</h5>
             <div class="progress">
               <div id="python-logo" class="progress-bar" style="width: 60%">
-                Python
+                60%
               </div>
             </div>
-
+            <h5>Django</h5>
             <div class="progress">
               <div id="django-logo" class="progress-bar" style="width: 40%">
-                Django
+                50%
               </div>
             </div>
-
+            <h5>MySQL</h5>
             <div class="progress">
               <div id="mysql-logo" class="progress-bar" style="width: 50%">
-                MySQL
+                50%
               </div>
             </div>
-
+            <h5> PostgreSQL</h5>
             <div class="progress">
               <div id="postgresql-logo" class="progress-bar" style="width: 50%">
-                PostgreSQL
+               50%
               </div>
             </div>
           </div>
@@ -283,13 +373,12 @@
             </div>
             <div id="contact-form" class="col-md-8">
               <form>
-                <div class="form-group">
-                  
-                  <input class="form-control" type="text" placeholder="Your name">
-                  <input class="form-control" type="email" placeholder="Your email">
-                  <textarea  class="form-control" name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                <div class="form-group">                  
+                  <input class="form-control" type="text" placeholder="Your name" required>
+                  <input class="form-control" type="email" placeholder="Your email" required>
+                  <textarea  class="form-control" name="" id="" cols="30" rows="6" placeholder="Message" required></textarea>
                   <div class="text-right">
-                    <input class="btn btn-success " type="button" value="Submit">
+                    <input class="btn btn-success " type="submit" value="Submit">
                   </div>
                 </div>
               </form>
