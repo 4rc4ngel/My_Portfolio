@@ -4,11 +4,29 @@ strong {
   color: #a2f1a1;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .fas {
   color: #a2f1a1;
 }
 
+h2 {
+  font-size: 3.5rem;
+  font-weight: 30;
+}
+
 /* HOME */
+
+#main-heading {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+#main-subtitle {
+  font-size: 3.5rem;
+}
 
 #home-section {
   height: 800px;
@@ -29,7 +47,7 @@ strong {
 }
 
 #home-section .home-inner {
-  padding-top: 350px;
+  padding-top: 450px;
   color: #fff;
 }
 
@@ -178,8 +196,8 @@ strong {
   color: #0084b4;
 }
 
-#youtube-hover:hover {
-  color: #e31010;
+#github-hover:hover {
+  color: #000;
 }
 
 #instagram-hover:hover {
@@ -188,4 +206,53 @@ strong {
 
 #linkedin-hover:hover {
   color: #0077b5;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1199px) {
+  #main-heading {
+    font-size: 4rem;
+  }
+
+  #main-subtitle {
+    font-size: 3rem;
+  }
+
+  #home-section .home-inner {
+    padding-top: 200px;
+  }
+
+  #home-section {
+    height: 500px;
+  }
+
+  #home-section .overlay {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  h3 {
+    font-size: 1.4rem;
+  }
+  #main-heading {
+    font-size: 3rem;
+  }
+
+  #main-subtitle {
+    font-size: 1.2rem;
+  }
+
+  #home-section .home-inner {
+    padding-top: 100px;
+  }
+
+  #home-section {
+    height: 300px;
+  }
+
+  #home-section .overlay {
+    height: 300px;
+  }
 }
