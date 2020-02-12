@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Portfolio</title>
   </head>
+
   <!-- NAV -->
+
   <body data-spy="scroll" data-target="#main-nav" id="home">
     <nav
       class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"
@@ -63,7 +65,9 @@
         </div>
       </div>
     </nav>
+
     <!-- HOME -->
+
     <header id="home-section">
       <div class="overlay">
         <div class="home-inner container">
@@ -72,7 +76,7 @@
               <h1 id="main-heading">
                 Martyn Stanley <strong>Web Developer</strong>
               </h1>
-              <h3 id="main-subtitle">Design, Code, Create.</h3>
+              <h3 id="main-subtitle">Design, Create, Code.</h3>
             </div>
           </div>
         </div>
@@ -80,6 +84,7 @@
     </header>
 
     <!-- ABOUT ME -->
+
     <section id="about-me-section" class="bg-dark text-light py-5">
       <div class="about-inner container">
         <div class="row text-center">
@@ -96,21 +101,11 @@
               <i class="fas fa-edit fa-2x"></i>
               <h3 class="pl-5">Design</h3>
             </div>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              modi vel porro adipisci quas. Dignissimos, ipsa ad neque ducimus
-              quasi aut blanditiis aperiam et ex?
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="d-flex pb-3">
-              <i class="fas fa-code fa-2x"></i>
-              <h3 class="pl-5">Code</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              modi vel porro adipisci quas. Dignissimos, ipsa ad neque ducimus
-              quasi aut blanditiis aperiam et ex?
+            <p class="about-text">
+              First I take your idea, applying the principles of the 5 planes of
+              <strong>UX</strong>. I flesh out the project. What are you
+              business goals? Who will use the site? Then carry out case studies
+              of how people will percieve your idea.
             </p>
           </div>
           <div class="col-md-4">
@@ -118,11 +113,23 @@
               <i class="fas fa-cogs fa-2x"></i>
               <h3 class="pl-5">Create</h3>
             </div>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              modi vel porro adipisci quas. Dignissimos, ipsa ad neque ducimus
-              quasi aut blanditiis aperiam et ex?
+            <p class="about-text">
+              After the design phase, I take all the information gained and
+              produce a <strong>wireframe/prototype</strong> of how your idea
+              will look. We then discuss any changes and the best technology to
+              use for your project.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex pb-3">
+              <i class="fas fa-code fa-2x"></i>
+              <h3 class="pl-5">Code</h3>
+            </div>
+            <p class="about-text">
+              This is the stage where I turn your idea into reality. As a
+              <strong>"Full Stack Developer"</strong> I make sure your web app
+              looks beautiful, while ensuring what happens behind the scenes is
+              fast, scalable and adheres to industry standards.
             </p>
           </div>
         </div>
@@ -302,7 +309,6 @@
         </div>
       </div>
     </div>
-
     <div
       class="modal fade"
       id="modal3"
@@ -381,6 +387,7 @@
     </div>
 
     <!-- SKILLS -->
+
     <section id="skills-section" class="bg-dark text-light py-5">
       <div class="container">
         <div class="row text-center">
@@ -508,7 +515,9 @@
         </div>
       </div>
     </section>
+
     <!-- FOOTER -->
+
     <footer id="footer-section" class="bg-dark">
       <div class="container">
         <div class="d-flex justify-content-around py-3">
@@ -547,11 +556,13 @@
       </div>
     </footer>
 
+    <!-- SCRIPTS -->
+
     <script src="/jquery/jquery-3.4.1.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
-
     <script>
       // INIT SCROLL SPY
+
       $("body").scrollspy({ target: "#main-nav" });
 
       // SMOOTH SCROLLING
