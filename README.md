@@ -75,6 +75,8 @@ I extensively tested my sites responsiveness, using Chrome Developer tools. Init
 5. After deployment testing another error occurred where my modal images weren't loading.
     1. After some investigation, I had a leading `/` at the beginning of my img reference.  I simply deleted these leading `/` and redeployed to GitHub Pages achieving the results I desired.
     
+6. I ran both HTML and CSS files through a code Validator with no errors.
+    
 ## Deployment
 
 When I was finally happy with my site, it was time to deploy to GitHub pages. I chose this hosting as it's perfect for hosting single page applications, as mentioned previously, I hit a bug in testing after development where the static JavaScript files were not being located, so rectified this using CDN's.
