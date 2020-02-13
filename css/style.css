@@ -268,3 +268,15 @@ h2 {
     height: 300px;
   }
 }
+
+@media screen and (min-width: 991px) {
+  #main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-title {
+    padding-right: 10px;
+  }
+}
