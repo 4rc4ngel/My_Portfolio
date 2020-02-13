@@ -17,6 +17,12 @@ h2 {
   font-weight: 300;
 }
 
+/* NAV */
+
+.navbar {
+  opacity: 0.9;
+}
+
 /* HOME */
 
 #main-heading {
