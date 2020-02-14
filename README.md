@@ -19,6 +19,8 @@ So, opted for the hex colour `#a2f1a1` I then used this colour across my theme, 
 
 Towards the end of my development, I realised I’d left out an integral section which would contain my contact details.  I created this section on the fly, completely changing the original. I also added a CV link and download icon into the nav bar.
 
+I also selectd background images which subtley linked to each section. 
+
 Overall, I’m happy with how the colour `#a2f1a1` contrasts with bootstraps dark backgrounds.
 
 ## Features
@@ -74,6 +76,8 @@ I extensively tested my sites responsiveness, using Chrome Developer tools. Init
     1. At a later stage I’d like to re-implement the static versions of these services, in case the cdn servers ever went down.
 5. After deployment testing another error occurred where my modal images weren't loading.
     1. After some investigation, I had a leading `/` at the beginning of my img reference.  I simply deleted these leading `/` and redeployed to GitHub Pages achieving the results I desired.
+    
+6. I ran both HTML and CSS files through a code Validator with no errors.
     
 ## Deployment
 
