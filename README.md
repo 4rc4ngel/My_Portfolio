@@ -1,4 +1,4 @@
-# (Portfolio) user_centric_frontend_project 
+# My_Portfolio
 
 I had the idea to create a portfolio page showcasing my ability to design and layout web apps to potential employers, I wanted my web app to be clean and summarise procedures I use when developing, then have a section that showcases the type of apps I’ve already completed. I also want the user to view my progress in the tech stack, followed by a simple business type card effect alongside a form. 
 
