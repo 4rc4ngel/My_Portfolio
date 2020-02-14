@@ -19,6 +19,8 @@ So, opted for the hex colour `#a2f1a1` I then used this colour across my theme, 
 
 Towards the end of my development, I realised I’d left out an integral section which would contain my contact details.  I created this section on the fly, completely changing the original. I also added a CV link and download icon into the nav bar.
 
+I also selectd background images which subtley linked to each section. 
+
 Overall, I’m happy with how the colour `#a2f1a1` contrasts with bootstraps dark backgrounds.
 
 ## Features
