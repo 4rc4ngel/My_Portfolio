@@ -83,7 +83,7 @@ I extensively tested my sites responsiveness, using Chrome Developer tools. Init
 
 When I was finally happy with my site, it was time to deploy to GitHub pages. I chose this hosting as it's perfect for hosting single page applications, as mentioned previously, I hit a bug in testing after development where the static JavaScript files were not being located, so rectified this using CDN's.
 
-The process of deployment was quite simple, I navigated to the settings area in my repository and scrolled down to the GitHub Pages section, it asks where you would like to host the source from and I selected the master branch of my repository. Within moments my site was hosted at [Portfolio]( https://4rc4ngel.github.io/user_centric_frontend_project/)
+The process of deployment was quite simple, I navigated to the settings area in my repository and scrolled down to the GitHub Pages section, it asks where you would like to host the source from and I selected the master branch of my repository. Within moments my site was hosted at [Portfolio](https://4rc4ngel.github.io/My_Portfolio/)
 
 ## Credits
 
